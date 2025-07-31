@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2abf073b-ee4c-4636-984e-32ac57fb058e" name="Changes" comment="create StartupCard">
-      <change beforePath="$PROJECT_DIR$/components/StartupCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/StartupCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+    <list default="true" id="2abf073b-ee4c-4636-984e-32ac57fb058e" name="Changes" comment="implement search filter">
+      <change afterPath="$PROJECT_DIR$/app/(root)/startup/[id]/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -23,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Fredenga"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Fredenga&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Fredenga/livestartup_v2.git",
-    "accountId": "6baf13f3-808b-4a4c-b5b3-088e2448e67f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Fredenga/livestartup_v2.git&quot;,
+    &quot;accountId&quot;: &quot;6baf13f3-808b-4a4c-b5b3-088e2448e67f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -97,6 +97,7 @@
       <updated>1753712614796</updated>
       <workItem from="1753712638203" duration="7556000" />
       <workItem from="1753819129070" duration="7960000" />
+      <workItem from="1753869275920" duration="9626000" />
     </task>
     <task id="LOCAL-00001" summary="restart project to current milestone">
       <option name="closed" value="true" />
@@ -154,7 +155,55 @@
       <option name="project" value="LOCAL" />
       <updated>1753824965539</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="style StartupCard">
+      <option name="closed" value="true" />
+      <created>1753870666206</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1753870666206</updated>
+    </task>
+    <task id="LOCAL-00009" summary="setup sanity and create first schema">
+      <option name="closed" value="true" />
+      <created>1753874060673</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1753874060673</updated>
+    </task>
+    <task id="LOCAL-00010" summary="create startup schema">
+      <option name="closed" value="true" />
+      <created>1753875537357</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1753875537357</updated>
+    </task>
+    <task id="LOCAL-00011" summary="implement sanity fetch logic">
+      <option name="closed" value="true" />
+      <created>1753878132304</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1753878132304</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix startupCard">
+      <option name="closed" value="true" />
+      <created>1753879121583</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1753879121583</updated>
+    </task>
+    <task id="LOCAL-00013" summary="implement search filter">
+      <option name="closed" value="true" />
+      <created>1753880232706</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1753880232706</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +228,13 @@
     <MESSAGE value="complete form" />
     <MESSAGE value="complete form ui" />
     <MESSAGE value="create StartupCard" />
-    <option name="LAST_COMMIT_MESSAGE" value="create StartupCard" />
+    <MESSAGE value="style StartupCard" />
+    <MESSAGE value="setup sanity and create first schema" />
+    <MESSAGE value="create startup schema" />
+    <MESSAGE value="implement sanity fetch logic" />
+    <MESSAGE value="generate startup types" />
+    <MESSAGE value="fix startupCard" />
+    <MESSAGE value="implement search filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement search filter" />
   </component>
 </project>
