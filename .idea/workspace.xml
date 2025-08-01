@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2abf073b-ee4c-4636-984e-32ac57fb058e" name="Changes" comment="implement search filter">
-      <change afterPath="$PROJECT_DIR$/app/(root)/startup/[id]/page.tsx" afterDir="false" />
+    <list default="true" id="2abf073b-ee4c-4636-984e-32ac57fb058e" name="Changes" comment="add toaster to notify user of status">
+      <change afterPath="$PROJECT_DIR$/lib/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -98,6 +101,8 @@
       <workItem from="1753712638203" duration="7556000" />
       <workItem from="1753819129070" duration="7960000" />
       <workItem from="1753869275920" duration="9626000" />
+      <workItem from="1753946817477" duration="16523000" />
+      <workItem from="1754033620848" duration="1839000" />
     </task>
     <task id="LOCAL-00001" summary="restart project to current milestone">
       <option name="closed" value="true" />
@@ -203,7 +208,87 @@
       <option name="project" value="LOCAL" />
       <updated>1753880232706</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add query startup by ID">
+      <option name="closed" value="true" />
+      <created>1753948586345</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1753948586345</updated>
+    </task>
+    <task id="LOCAL-00015" summary="before canary install">
+      <option name="closed" value="true" />
+      <created>1753949304425</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1753949304425</updated>
+    </task>
+    <task id="LOCAL-00016" summary="create dynamic view count">
+      <option name="closed" value="true" />
+      <created>1753954287414</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1753954287414</updated>
+    </task>
+    <task id="LOCAL-00017" summary="temporarily remove sanity skeleton cmp">
+      <option name="closed" value="true" />
+      <created>1753957127863</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1753957127863</updated>
+    </task>
+    <task id="LOCAL-00018" summary="extract user data from github auth">
+      <option name="closed" value="true" />
+      <created>1753963505783</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1753963505783</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fetch from data store rather than cache after login">
+      <option name="closed" value="true" />
+      <created>1753964469095</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1753964469095</updated>
+    </task>
+    <task id="LOCAL-00020" summary="implement create startup form">
+      <option name="closed" value="true" />
+      <created>1753966346685</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1753966346685</updated>
+    </task>
+    <task id="LOCAL-00021" summary="perform form validation with zod">
+      <option name="closed" value="true" />
+      <created>1753967117211</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1753967117211</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add form validation and error handling on handleSumit">
+      <option name="closed" value="true" />
+      <created>1753968007712</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1753968007712</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add toaster to notify user of status">
+      <option name="closed" value="true" />
+      <created>1753968535641</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1753968535641</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +320,16 @@
     <MESSAGE value="generate startup types" />
     <MESSAGE value="fix startupCard" />
     <MESSAGE value="implement search filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement search filter" />
+    <MESSAGE value="add query startup by ID" />
+    <MESSAGE value="before canary install" />
+    <MESSAGE value="create dynamic view count" />
+    <MESSAGE value="temporarily remove sanity skeleton cmp" />
+    <MESSAGE value="extract user data from github auth" />
+    <MESSAGE value="fetch from data store rather than cache after login" />
+    <MESSAGE value="implement create startup form" />
+    <MESSAGE value="perform form validation with zod" />
+    <MESSAGE value="add form validation and error handling on handleSumit" />
+    <MESSAGE value="add toaster to notify user of status" />
+    <option name="LAST_COMMIT_MESSAGE" value="add toaster to notify user of status" />
   </component>
 </project>
