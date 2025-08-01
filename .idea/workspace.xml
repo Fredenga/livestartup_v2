@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2abf073b-ee4c-4636-984e-32ac57fb058e" name="Changes" comment="make navbar responsive">
-      <change afterPath="$PROJECT_DIR$/sanity/schemaTypes/playlist.ts" afterDir="false" />
+    <list default="true" id="2abf073b-ee4c-4636-984e-32ac57fb058e" name="Changes" comment="create playlist schema">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/startup/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/startup/[id]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity/extract.json" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/extract.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity/lib/queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/lib/queries.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +103,7 @@
       <workItem from="1753819129070" duration="7960000" />
       <workItem from="1753869275920" duration="9626000" />
       <workItem from="1753946817477" duration="16523000" />
-      <workItem from="1754033620848" duration="14852000" />
+      <workItem from="1754033620848" duration="16272000" />
     </task>
     <task id="LOCAL-00001" summary="restart project to current milestone">
       <option name="closed" value="true" />
@@ -325,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754049887655</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="create playlist schema">
+      <option name="closed" value="true" />
+      <created>1754050222370</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1754050222370</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +355,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="complete form" />
     <MESSAGE value="complete form ui" />
     <MESSAGE value="create StartupCard" />
     <MESSAGE value="style StartupCard" />
@@ -368,6 +379,7 @@
     <MESSAGE value="add sentry monitoring" />
     <MESSAGE value="create profile page" />
     <MESSAGE value="make navbar responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="make navbar responsive" />
+    <MESSAGE value="create playlist schema" />
+    <option name="LAST_COMMIT_MESSAGE" value="create playlist schema" />
   </component>
 </project>
