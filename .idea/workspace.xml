@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2abf073b-ee4c-4636-984e-32ac57fb058e" name="Changes" comment="successfully implement create startup functionality">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="2abf073b-ee4c-4636-984e-32ac57fb058e" name="Changes" comment="add sentry monitoring">
+      <change afterPath="$PROJECT_DIR$/app/(root)/profile/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/userStartups.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/startup/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/startup/[id]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/StartupCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/StartupCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity/lib/queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/lib/queries.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -103,7 +104,7 @@
       <workItem from="1753819129070" duration="7960000" />
       <workItem from="1753869275920" duration="9626000" />
       <workItem from="1753946817477" duration="16523000" />
-      <workItem from="1754033620848" duration="10906000" />
+      <workItem from="1754033620848" duration="13833000" />
     </task>
     <task id="LOCAL-00001" summary="restart project to current milestone">
       <option name="closed" value="true" />
@@ -305,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754040531564</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add sentry monitoring">
+      <option name="closed" value="true" />
+      <created>1754046073416</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1754046073416</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +332,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed tailwind bug" />
     <MESSAGE value="integrate shadcn, code hero" />
     <MESSAGE value="create search form" />
     <MESSAGE value="complete form" />
@@ -348,6 +356,7 @@
     <MESSAGE value="add toaster to notify user of status" />
     <MESSAGE value="implement createPitch server function" />
     <MESSAGE value="successfully implement create startup functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="successfully implement create startup functionality" />
+    <MESSAGE value="add sentry monitoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sentry monitoring" />
   </component>
 </project>

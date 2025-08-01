@@ -6,8 +6,8 @@ import Link from "next/link";
 import Image from "next/image";
 import markdownit from "markdown-it"
 import {Suspense} from "react";
-import {Skeleton} from "@sanity/ui";
 import View from "@/components/view";
+import {Skeleton} from "@/components/ui/skeleton";
 
 export const experimental_ppr = true
 
@@ -57,11 +57,9 @@ const Page = async ({params}: {params: Promise<{id: string}>}) => {
                 <hr className={"divider"} />
 
             {/*  TODO: EDITOR: Selected Startups  */}
-            {/*<Suspense fallback={<Skeleton className={"view_skeleton"} />}>*/}
-                <Suspense >
-                    <View id={id} />
+                <Suspense fallback={<Skeleton className={"view_skeleton"} />}>
+                        <View id={id} />
                 </Suspense>
-            {/*</Suspense>*/}
             </section>
         </>
     );
