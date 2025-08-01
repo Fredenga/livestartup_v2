@@ -23,7 +23,7 @@ export default async function Home({searchParams}: {searchParams: Promise<{query
                <SearchForm query={query}/>
            </section>
             <section className={"section_container"}>
-                <p className={"text-30-semibold"}>
+                {/*<p className={"text-30-semibold"}>*/}
                     {query ? `Search results for the following query: ${query}` : `All Startups`}
                     <ul className={"mt-7 card_grid"}>
                         {
@@ -36,7 +36,7 @@ export default async function Home({searchParams}: {searchParams: Promise<{query
 
                         }
                     </ul>
-                </p>
+                {/*</p>*/}
             </section>
             <SanityLive/>
         </>

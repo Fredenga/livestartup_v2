@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2abf073b-ee4c-4636-984e-32ac57fb058e" name="Changes" comment="add toaster to notify user of status">
-      <change afterPath="$PROJECT_DIR$/lib/actions.ts" afterDir="false" />
+    <list default="true" id="2abf073b-ee4c-4636-984e-32ac57fb058e" name="Changes" comment="implement createPitch server function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/startup/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/startup/[id]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/startup/create/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/startup/create/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/startupForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/startupForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +105,7 @@
       <workItem from="1753819129070" duration="7960000" />
       <workItem from="1753869275920" duration="9626000" />
       <workItem from="1753946817477" duration="16523000" />
-      <workItem from="1754033620848" duration="1839000" />
+      <workItem from="1754033620848" duration="6237000" />
     </task>
     <task id="LOCAL-00001" summary="restart project to current milestone">
       <option name="closed" value="true" />
@@ -288,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753968535641</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="implement createPitch server function">
+      <option name="closed" value="true" />
+      <created>1754035835994</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1754035835994</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +341,7 @@
     <MESSAGE value="perform form validation with zod" />
     <MESSAGE value="add form validation and error handling on handleSumit" />
     <MESSAGE value="add toaster to notify user of status" />
-    <option name="LAST_COMMIT_MESSAGE" value="add toaster to notify user of status" />
+    <MESSAGE value="implement createPitch server function" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement createPitch server function" />
   </component>
 </project>
